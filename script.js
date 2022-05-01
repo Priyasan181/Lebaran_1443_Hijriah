@@ -1,7 +1,3 @@
-const window = document.querySelector('#window');
-const Iya = document.querySelector(".next");
-const Text = document.getElementById("text");
-const Image = document.querySelector("#image-gif");
 window.addEventListener('load', () => {
     Swal.fire({
       title: 'Do you want to play music in the background?',
@@ -21,6 +17,10 @@ window.addEventListener('load', () => {
       }
     });
   });  
+
+const Iya = document.querySelector(".next");
+const Text = document.getElementById("text");
+const Image = document.querySelector("#image-gif");
 
 Iya.addEventListener("click", function () {
     Iya.value = parseInt(Iya.value) + 1;
