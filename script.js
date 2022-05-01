@@ -30,7 +30,7 @@ Iya.addEventListener("click", function () {
     }else if (Iya.value == 5) {
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
-        Text.innerHTML = "Harapan ini menjadi indah <br> Jika selalu ada maaf diantara kita";
+        Text.innerHTML = "Harapan ini menjadi indah, <br> Jika selalu ada maaf diantara kita";
         Text.classList.add('text-animate');
     }else if (Iya.value == 6) {
         Text.classList.remove('text-animate');
@@ -50,7 +50,6 @@ Iya.addEventListener("click", function () {
         Text.innerHTML = "Selamat hari raya Idul Fitri 1443 Hijriah <br> Mohon Maaf Lahir dan Batin 😁";
         Text.classList.add('text-animate');
     }else if (Iya.value == 9) {
-        Image.setAttribute("src", "selamat-lebaran.gif");
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
         Text.innerHTML = "Dari Priya Risky Qurniawan 🤗";
