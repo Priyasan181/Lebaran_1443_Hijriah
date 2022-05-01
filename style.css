@@ -7,7 +7,7 @@ body {
 
 p{
     font-size: 3vw;
-    background-color: black;
+    background-color: transparent;
     padding: 4px;
     border-radius: 20px;;
 }
