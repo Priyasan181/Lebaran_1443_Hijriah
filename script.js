@@ -1,3 +1,4 @@
+const window = document.querySelector('#window');
 const Iya = document.querySelector(".next");
 const Text = document.getElementById("text");
 const Image = document.querySelector("#image-gif");
