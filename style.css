@@ -19,7 +19,7 @@ p{
 
 .text-animate {
     overflow: hidden;
-    border-right: .15em solid black;
+    border-right: .15em solid transparent;
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .15em;
@@ -63,7 +63,7 @@ p{
 }
 
 .next {
-    background-color: black;
+    background-color: rgb(7, 146, 109);
     border-radius: 30px;
     border: none;
     color: white;
